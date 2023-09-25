@@ -7,6 +7,8 @@ body {
 .header, .hero, .footer, .call {
     padding-left: 10%;
     padding-right: 10%;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .info, .quote {
@@ -28,9 +30,15 @@ body {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 32px;
+}
+
+.hero img {
+    width: 700px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .info, .quote {
