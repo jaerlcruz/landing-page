@@ -1,0 +1,92 @@
+body {
+    background-color: #f2e384;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.header, .hero, .footer, .call {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.info, .quote {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.info, .quote {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%
+}
+
+.info {
+    background: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs {
+    display: flex;
+    text-align: center;
+    gap: 32px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    border-radius: 12px;
+    border: none;
+    background: #ffffff;
+    padding: 8px;
+}
+
+.heroimg {
+    flex-grow: 1;
+    width: 800px;
+    height: 100%;
+    background-color: beige;
+}
+
+.call {
+    margin: 10%;
+    background-color: aliceblue;
+    padding: 5%
+}
+
+.footer {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color:#8c8c8c;
+}
+
+.footer span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
