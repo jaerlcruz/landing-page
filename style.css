@@ -1,15 +1,20 @@
 body {
-    background-color: #EDE1B7;
+    background-color: #F8F2E2;
     font-family: "Roboto", sans-serif;
     margin: 0;
     color: #44322E;
     font-size: 18px;
+    font-weight: 300;
 }
 
-.header, .hero, .footer, .call {
+.header, .hero, .call {
     padding-left: 15%;
     padding-right: 15%;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+}
+
+.header, .hero {
+    background: #EDE1B7;
 }
 
 .info, .quote {
@@ -42,9 +47,11 @@ button {
     border: none;
     background: #ffffff;
     padding: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
     font-size: 18px;
+    font-weight: 300;
+    flex-grow: 0;
 }
 
 .hero {
@@ -119,25 +126,39 @@ button {
 }
 
 .qauthor {
+    margin-top: 12px;
+    font-size: 18px;
     font-weight: 800;
     text-align: right;
 }
 
-/* .call {
-    margin: 10%;
-    background-color: aliceblue;
-    padding: 5%
+.call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15%;
+    background: #369F40;
+    color: #F8F2E2;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 12px;
+}
+
+.itstime {
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .footer {
     height: 80px;
     line-height: 80px;
     text-align: center;
-    background-color:#8c8c8c;
+    background-color:#EDE1B7;
 }
 
 .footer span {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
-}*/
+}
